@@ -17,7 +17,7 @@ The database consists of **5 related tables**:
 ```
 CUSTOMERS ──< ORDERS ──< ORDER_ITEMS >── PRODUCTS
                 │
-             PAYMENTS
+        PAYMENTS
 ```
 
 | Table | Description |
@@ -59,6 +59,7 @@ How to Run
    - Define all tables and constraints
    - Insert sample data
    - Execute all analytical queries
+
 
 ```sql
 -- Just open and run:
